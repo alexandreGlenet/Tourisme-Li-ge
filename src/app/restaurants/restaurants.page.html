@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button text="Retour"></ion-back-button>
@@ -7,6 +7,44 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Retour"></ion-back-button>
+      </ion-buttons>
+      <ion-title size="large">Restaurants</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Activites 1 -->
+  <ion-card>
+    <ion-img src="../../assets/img/restaurant-1.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>Brutal Bar</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Cuisine de rue (street food), Européenne, Espagnole, Française</p>
+      <br/>
+      <p>
+        Fourchette de prix : 15€ - 40€
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <!-- Activites 2 -->
+  <ion-card>
+    <ion-img src="../../assets/img/restaurant-1.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>Brutal Bar</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Cuisine de rue (street food), Européenne, Espagnole, Française</p>
+      <br/>
+      <p>
+        Fourchette de prix : 15€ - 40€
+      </p>
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

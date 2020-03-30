@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button text="Retour"></ion-back-button>
@@ -7,6 +7,47 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Retour"></ion-back-button>
+      </ion-buttons>
+      <ion-title size="large">Hébergements</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Activites 1 -->
+  <ion-card>
+    <ion-img src="../../assets/img/hotel-1.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>Hotel Neuvice</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Situé dans le centre historique de Liège, l'Hotel Neuvice propose des chambres
+        à la décoration moderne et une connexion Wi-Fi gratuite dans l'ensemble de l'établissement.
+        Abritant un bar et une cour centrale, il se trouve à 350 mètres du palais des Princes-Évêques.</p>
+      <br/>
+      <p>
+        Prix par nuit : 110 €
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <!-- Activites 2 -->
+  <ion-card>
+    <ion-img src="../../assets/img/hotel-2.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title> ibis Styles Liege Guillemins</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>L’ibis Styles Liege Guillemins vous propose un bar et des hébergements climatisés à Liège, à 2,3 km du palais des congrès. Il vous accueille également à environ 2,6 km de La Boverie, à 8 km du Cristal Park et à 1,8 km du parc d'Avroy. Vous pourrez profiter d’une connexion Wi-Fi gratuite et d’un parking privé moyennant des frais supplémentaires.</p>
+      <br/>
+      <p>
+        Prix par nuit : 59 €
+      </p>
+
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

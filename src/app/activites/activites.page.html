@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button text="Retour"></ion-back-button>
@@ -7,6 +7,46 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Retour"></ion-back-button>
+      </ion-buttons>
+      <ion-title size="large">Activités</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Activites 1 -->
+  <ion-card>
+    <ion-img src="../../assets/img/activites-1.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>Get Out !</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Entrez chez Get Out !, et vous n’aurez plus qu’un objectif : en sortir en moins de 60 minutes !
+        En effet, le principe de ce jeu d’évasion grandeur nature est simple. Chaque équipe de 3 à 6 personnes
+        est enfermée dans une pièce. Elle dispose d’une heure pour rechercher des indices afin de résoudre
+        une énigme et sortir à temps. Vous avez le choix entre quatre intrigues dans des décors différents.
+        Dans « Les secrets de la Panic Room », vous vous retrouvez en 1963, à la Maison-Blanche.
+        « L’Affaire Cunningham » vous plonge à la fin des années 90, à Londres,
+        où une série de meurtres ignobles se sont produits. La troisième pièce vous ramène en 1925 pendant
+        la révolution industrielle, et la dernière vous propulse dans un fort en France, au Moyen Âge.
+        Remue-méninges garanti !</p>
+
+    </ion-card-content>
+  </ion-card>
+  <!-- Activites 2 -->
+  <ion-card>
+    <ion-img src="../../assets/img/activites-2.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>K2 Tower !</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>« 3, 2, 1… » Voici le décompte que vous entendrez juste avant de vous jeter dans le vide depuis le sommet de la K2 Tower à 52 mètres de haut ! Préalablement, vous aurez été complètement équipé pour vivre un saut à l’élastique dont vous vous souviendrez toute votre vie… Au final, une grosse sensation, une bonne dose d’adrénaline, mais surtout, un saut en toute sécurité, supervisé par des professionnels. Ceux-ci connaissent parfaitement leur métier : ils auront les mots pour vous rassurer avant d’effectuer ce véritable exploit. Unique dans le Benelux, ce site de saut à l’élastique est ouvert les week-ends de mi-avril à fin octobre, et selon les conditions météo (pour des raisons évidentes de sécurité).</p>
+
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>
